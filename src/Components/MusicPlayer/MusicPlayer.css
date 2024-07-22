@@ -1,0 +1,103 @@
+.container {
+    width: 100%;
+    height: 100dvh;
+    background: fixed;
+    background-color:darkcyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.music-player {
+    width: 400px;
+    padding: 25px 35px;
+    background-color:aquamarine;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+nav .circle {
+    width: 40px;
+    height: 40px;
+    line-height: 45px;
+    background: #fff;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px rgb(255, 26, 26, 0.22);
+}
+
+.song-img {
+    width: 220px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+    box-shadow: 0 10px 60px rgb(255, 26, 26, 0.22);
+}
+
+.music-player h1 {
+   font-size: 20px;
+   margin-top: 20px;
+   justify-content: center;
+}
+
+.music-player p {
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.progress {
+    appearance: none;
+    width: 100%;
+    height: 6px;
+    background:darkcyan;
+    margin: 40px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: darkcyan;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border: 4px solid #fff;
+    box-shadow: 0 5px 5px rgb(255, 26, 26, 0.22);
+}
+
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Icons {
+    width: 25px;
+    height: 25px;
+    margin-top: 12.5px;
+}
+
+.control div {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    color: darkcyan;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgb(255, 26, 26, 0.22);
+    cursor: pointer;
+}
+
+.control div:nth-child(2) {
+    transform: scale(1.5);
+    background: darkcyan;
+    color: #fff;
+
+}
